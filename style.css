@@ -138,6 +138,7 @@ opacity:0.9 ;
     justify-content: space-between;
    align-items: center;
    padding:1rem 0 1rem 0;
+   z-index: 10;
 
 }
 .sticky-nav-icons {
@@ -171,7 +172,7 @@ opacity:0.9 ;
     background-color: #232323;
     border-radius: 0.5rem;
     margin-left: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 1rem ;
 }
 .cards-container{
     display: flex;
@@ -190,4 +191,48 @@ opacity:0.9 ;
 .card-info{
     font-size:0.75rem;
     opacity:0.5;
+}
+.footer{
+    height:300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.line{
+    width:90%;
+    height:30%;
+    border-top:1px solid white;
+    opacity:0.4;
+
+
+}
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.album{
+    width:25%;
+}
+.player{
+    width:50%;
+}
+.controls{
+    width:25%;
+}
+.player-control-icon{
+    height:1rem;
+    margin-right: 2rem;
+     margin-left: 2rem;
+
+}
+.progress-bar{
+    display: inline;
+}
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
